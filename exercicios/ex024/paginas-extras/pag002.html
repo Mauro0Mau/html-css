@@ -3,22 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../../../imagens-favicons/favicons/frame/favicon.ico" type="image/x-icon">
     <title>Teste de iframe</title>
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
         }
         h1{
            text-align: center;
         }
-        iframe{
-            margin: auto;
-            display: inline;
+        div.video > iframe{
+            position: absolute;
+            top: 20%;
+            left: 12.5%;
+            width: 75%;
+            height: 75%;
         }
     </style>
 </head>
 <body>
     <h1>Videos</h1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/9DFVLOpvi5k?si=wDLzG5qN82OdfkEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/XX9X_luT6Ns?si=vBLSUgerTNwK5OLJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 </body>
 </html>
